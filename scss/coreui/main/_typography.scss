@@ -1,0 +1,69 @@
+// Sahel persian free font
+
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel-FD.eot');
+  src: url('../fonts/Sahel-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sahel-FD.woff') format('woff'),
+       url('../fonts/Sahel-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel-Bold-FD.eot');
+  src: url('../fonts/Sahel-Bold-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sahel-Bold-FD.woff') format('woff'),
+       url('../fonts/Sahel-Bold-FD.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel-Black-FD.eot');
+  src: url('../fonts/Sahel-Black-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sahel-Black-FD.woff') format('woff'),
+       url('../fonts/Sahel-Black-FD.ttf') format('truetype');
+  font-weight: 900;
+}
+html,body {
+    font-family: 'Sahel'  !important;
+    line-height: 1.62 !important;
+     -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    button.btn {
+          font-weight: bold;
+    }
+}
+
+.font-xs {
+    font-size: .75rem !important;
+}
+
+.font-sm {
+    font-size: .85rem !important;
+}
+
+.font-lg {
+    font-size: 1rem !important;
+}
+
+.font-xl {
+    font-size: 1.25rem !important;
+}
+
+.font-2xl {
+    font-size: 1.5rem !important;
+}
+
+.font-3xl {
+    font-size: 1.75rem !important;
+}
+
+.font-4xl {
+    font-size: 2rem !important;
+}
+
+.font-5xl {
+    font-size: 2.5rem !important;
+}
