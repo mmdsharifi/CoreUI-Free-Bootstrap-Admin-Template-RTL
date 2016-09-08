@@ -14,7 +14,7 @@
 
 **NOTE:** Please remember to **STAR** this project and **FOLLOW** [my Github](https://github.com/mrholek) to keep you update with this template.
 ## RTL version
-RTL by [Mohammad Sharifi](https://github.com/mmdsharifi) @ Webly team with :heart:
+RTL template by [Mohammad Sharifi](https://github.com/mmdsharifi) @ [Webly Team](https://github.com/webly-team) with :heart:
 
 ## Bugs and feature requests
 
