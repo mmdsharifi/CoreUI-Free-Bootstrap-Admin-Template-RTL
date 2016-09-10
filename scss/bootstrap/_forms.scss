@@ -130,6 +130,8 @@ select.form-control {
   padding-bottom: $input-padding-y;
   // Remove default margin from `p`
   margin-bottom: 0;
+  // for long texts
+  word-wrap: break-word;
 
   &.form-control-sm,
   &.form-control-lg {

@@ -1721,7 +1721,8 @@ select.form-control:focus::-ms-value {
   padding-top: 0.5rem;
   padding-bottom: 8px;
   padding-bottom: 0.5rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  word-wrap: break-word; }
   .form-control-static.form-control-sm, .input-group-sm > .form-control-static.form-control,
   .input-group-sm > .form-control-static.input-group-addon,
   .input-group-sm > .input-group-btn > .form-control-static.btn, .form-control-static.form-control-lg, .input-group-lg > .form-control-static.form-control,
@@ -5063,6 +5064,26 @@ html, body {
   -webkit-font-smoothing: antialiased; }
   html button.btn, body button.btn {
     font-weight: bold; }
+  html .en, body .en {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    html .en::-webkit-input-placeholder, body .en::-webkit-input-placeholder {
+      font-family: 'Sahel'  !important;
+      -webkit-transition: .6s all;
+      transition: .6s all; }
+    html .en::-moz-placeholder, body .en::-moz-placeholder {
+      font-family: 'Sahel'  !important;
+      -webkit-transition: .6s all;
+      transition: .6s all; }
+    html .en:-ms-input-placeholder, body .en:-ms-input-placeholder {
+      font-family: 'Sahel'  !important;
+      -webkit-transition: .6s all;
+      transition: .6s all; }
+    html .en::placeholder, body .en::placeholder {
+      font-family: 'Sahel'  !important;
+      -webkit-transition: .6s all;
+      transition: .6s all; }
+    html .en:focus, body .en:focus {
+      direction: ltr; }
 
 .font-xs {
   font-size: 12px !important;
@@ -5645,6 +5666,10 @@ nav.top-nav {
 .container-nav {
   padding-left: 30px;
   padding-right: 30px; }
+
+.form-inline.nav.navbar-nav.pull-xs-right {
+  position: fixed;
+  left: 30px; }
 
 .aside-menu {
   position: fixed;

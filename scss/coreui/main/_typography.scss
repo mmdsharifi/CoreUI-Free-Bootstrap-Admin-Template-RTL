@@ -34,6 +34,19 @@ html,body {
     button.btn {
           font-weight: bold;
     }
+
+// for english fildes
+
+    .en {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        &::placeholder {
+            font-family: 'Sahel'  !important;
+            transition: .6s all;
+        }
+        &:focus {
+            direction: rtl;
+        }
+    }
 }
 
 .font-xs {
